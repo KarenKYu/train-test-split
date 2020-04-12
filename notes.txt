@@ -1,0 +1,40 @@
+Introduce some new concepts earlier 
+
+May need in the engineering section to build up to idea of 
+1. Features on one side -  List of lists 
+2. Targets on the other side...one large list
+
+This may seem weird, but it's almost like separating out the list of tasks having that all in one grid and the answers in another list.  
+
+
+So then going 
+
+1. targets, and features
+   Justify separation of the two 
+       That we may want to places our features in a list, and our targets in a separate list.
+That steps are
+A. Fit 
+B. Parameters and Coef_
+C. Once have those parameters, predict.
+
+-> .fit(X_train, y_train)
+Gradient descent may be ideal to talk about.
+
+
+
+
+
+
+
+
+
+
+Intro Paragraph 
+
+In the last number of lessons, we have been built a simple linear regression machine learning.  We did so using the three components of any machine learning algorithm: first with choosing a prediction model, then exploring the cost function for this model, and finally exploring the learning algorithm for this model.
+
+Our **prediction model** was simple linear regression, a line that given an input predicted an output.  The model took the form $\hat{y} = mx + b $ where $\hat{y}$ is the value our model predicts, $x$ is the input value, $m$ is the slope of the line and $b$ is the y intercept.  
+
+The **cost function** is residual sum of squares, which we get by adding up each of the squared errors between our actual data and the value that our model predicts, expressed mathematically as RSS = $(y_0 - \hat{y_0})^2 + (y_1 - \hat{y_1})^2 +  ... + (y_n - \hat{y_n})^2$.  
+
+Finally, we learned by recognizing that because our predicted value, $\hat{y_0} = mx + b $, we could show how RSS depends on the values of $m$ and $b$ that we choose.  From there, we can find the values of $m$ and $b$ for which our RSS is at a minimum, and therefore where our linear model most approximates our data for any value of $m$ or $b$.  We call line with these parameters our "best fit line".
