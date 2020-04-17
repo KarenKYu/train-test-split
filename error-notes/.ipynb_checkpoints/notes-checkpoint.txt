@@ -1,0 +1,3 @@
+Introduce some new concepts earlier 
+1. targets, and features
+2. That we may want to places our features in a list, and our targets in a separate list.
